@@ -1,0 +1,164 @@
+/* @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+
+* {
+  /* font-family: "Poetsen One", sans-serif; */
+  font-family: "Hammersmith One", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #15719f;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: #e3e8e4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #627e75;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  background-color: #e3e8e4;
+}
+
+.search-icon {
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-icon img {
+  margin-right: 5px;
+}
+
+.image {
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 160px;
+  height: 160px;
+}
+
+.temp,
+.location,
+.country {
+  margin-top: 5px;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.temp {
+  font-weight: 500;
+}
+
+.location {
+  color: #dfb228;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.country {
+  font-size: 18px;
+  color: #888;
+  font-weight: 500;
+}
+
+.coord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.coord div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.coord div span {
+  font-size: 14px;
+}
+
+.coord div span:nth-child(2),
+.humidity-percent,
+.wind-speed {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 5px;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.element {
+  text-align: center;
+}
+
+.data-container img {
+  width: 80px;
+  height: 80px;
+}
+
+.text {
+  font-size: 12px;
+  color: #888;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+
+.copyright span {
+  color: #333;
+}
+
+.city-not-found,
+.loading-message,
+.error-message {
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
