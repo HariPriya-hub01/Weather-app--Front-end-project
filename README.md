@@ -2,6 +2,8 @@
 
 A clean and simple weather application built with React and Vite, using the OpenWeatherMap API to deliver real-time weather updates based on city input.
 
+[ Click here for live site ](https://weather-app-inky-xi-96.vercel.app/)
+
 ## 🚀 Features
 
 - 🌦️ Real-time weather data for any city
